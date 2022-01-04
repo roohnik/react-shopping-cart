@@ -25,6 +25,7 @@ const Container = styled.div`
   z-index: 100;
   margin-right: auto;
   margin-left: auto;
+//   padding-bottom:200px
   background-color: white;
   opacity: 0.9;
   height: 100px;
