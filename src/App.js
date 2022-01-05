@@ -24,7 +24,7 @@ class App extends React.Component {
   sortProducts = (event) => {
     console.log(event.target.value);
     const sort = event.target.value;
-    this.setState((sort) => ({
+    this.setState((state) => ({
       sort: sort,
       products: this.state.products
         .slice()
